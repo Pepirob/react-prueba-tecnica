@@ -20,7 +20,7 @@ function App() {
       {fact && <p>{`${fact}`} </p>}
       {imageUrl && (
         <img
-          src={`${imageUrl}`}
+          src={imageUrl}
           alt={`Image extracted using the first word for ${fact}`}
         />
       )}
